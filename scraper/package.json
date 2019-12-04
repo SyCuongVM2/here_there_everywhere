@@ -1,0 +1,19 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "vne": "nodemon vnexpress.js"
+  },
+  "keywords": [],
+  "author": "sycuongvm",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "config": "^3.2.4",
+    "mongoose": "^5.7.8",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}

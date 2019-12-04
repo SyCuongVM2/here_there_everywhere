@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/scraper/node_modules
+/server/node_modules
+/scraper/.pnp
+/scraper/.pnp.js
+
+# testing
+/scraper/coverage
+/scraper/server
+
+# production
+build
+/scraper/build
+/server/build
+
+# misc
+.DS_Store
+/scraper/.DS_Store
+/scraper/.env.local
+/scraper/.env.development.local
+/scraper/.env.test.local
+/scraper/.env.production.local
+/server/.DS_Store
+/server/.env.local
+/server/.env.development.local
+/server/.env.test.local
+/server/.env.production.local
+
+.env
+
+/scraper/npm-debug.log*
+/scraper/yarn-debug.log*
+/scraper/yarn-error.log*
+/server/npm-debug.log*
+/server/yarn-debug.log*
+/server/yarn-error.log*
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

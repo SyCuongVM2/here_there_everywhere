@@ -1,0 +1,21 @@
+export const CATEGORY_LOADING = 'CATEGORY_LOADING';
+export const GET_CATEGORIES = 'GET_CATEGORIES';
+export const GET_CATEGORY = 'GET_CATEGORY';
+export const GET_SUB_CATEGORIES = 'GET_SUB_CATEGORIES';
+
+export const ARTICLE_LOADING = 'ARTICLE_LOADING';
+export const GET_ARTICLES = 'GET_ARTICLES';
+export const GET_ARTICLE = 'GET_ARTICLE';
+
+export const COMMENTS_LOADING = 'COMMENTS_LOADING';
+export const GET_COMMENTS = 'GET_COMMENTS';
+export const GET_COMMENT = 'GET_COMMENT';
+export const GET_TOTAL = 'GET_TOTAL';
+
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT = 'LOGOUT';
